@@ -9,8 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get: ">=4.0.0 <6.0.0"
-  path_provider: ^2.0.1
+  get: #^4.6.6
+    git:
+      url: https://github.com/jonataslaw/getx.git
+      ref: master
+  path_provider: ^2.1.5
   #platform_info: ^3.0.0-nullsafety.1
 
 dev_dependencies:
